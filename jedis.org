@@ -1,0 +1,70 @@
+#+LINK: jedis file:src/main/java/redis/clients/jedis/%s
+#+LINK: util file:src/main/java/redis/clients/util/%s
+
+* Classes and interfaces
+*** Commands                                                      :interface:
+    cinsk: Looks like =Commands= specifies all the _redis_ commands.
+    Note that all members in =Commands= does have =void= return type.
+
+    For the user-side, this methods are not useful. The actual
+    interface for the user is [[BinaryJedisCommands]].
+    
+*** Client                                                            :class:
+    [[jedis:Client.java][Client]] extends [[jedis:BinaryClient.java][BinaryClient]] implements [[jedis:Commands.java][Commands]]
+
+    cinsk: Client wraps the input to the BinaryClient methods, using
+    [[util:SafeEncoder.java][SafeEncoder]].
+
+*** BinaryClient                                                      :class:
+    [[jedis:BinaryClient.java][BinaryClient]] extends [[jedis:Connection.java][Connection]]
+
+    cinsk: This actually implements read/write data to the connection.
+
+*** BinaryJedis                                                       :class:
+    [[jedis:BinaryJedis.java][BinaryJedis]] implements [[jedis:BinaryJedisCommands.java][BinaryJedisCommands]]
+
+    member: [[jedis:Client.java][Client]]
+
+*** BinaryJedisCommands                                           :interface:
+
+    [[jedis:BinaryJedisCommands.java][BinaryJedisCommands]]: Common interface for shared/non-shared BinaryJedis
+
+    This is the actual interface that users may have interest.
+
+    All the _redis_ commands are declared with proper return type.
+
+    Note that it does not use friendly data types.  For example
+    it only have following =get()= method:
+
+#+BEGIN_SRC java
+  byte[] get(byte[] key);
+#+END_SRC
+
+
+*** Jedis                                                             :class:
+    [[jedis:Jedis.java][Jedis]] extends [[jedis:BinaryJedis.java][BinaryJedis]] implements [[jedis:JedisCommands.java][JedisCommands]]
+
+    Unlike =BinaryJedis=, =Jedis= uses friendly data types for
+    _redis_ commands.  For example, =Jedis= will have following methods:
+
+#+BEGIN_SRC java
+  public String get(final String key);
+#+END_SRC
+
+
+*** Sharded                                                           :class:
+    [[util:Sharded.java][Sharded]]<R, S extends [[util:ShardInfo.java][ShardInfo]]<R>>
+
+    It looks like that =Sharded= returns the destinated note R, from the
+    hashing of the input key.
+
+
+*** BinaryShardedJedis
+    [[jedis:BinaryShardedJedis.java][BinaryShardedJedis]] extends [[util:Sharded.java][Sharded]]<[[jedis:Jedis.java][Jedis]], [[jedis:JedisShardInfo.java][JedisShardInfo]]> 
+    implements [[jedis:BinaryJedisCommands.java][BinaryJedisCommands]]
+
+
+*** ShardedJedis
+    [[jedis:ShardedJedis.java][ShardedJedis]] extends [[jedis:BinaryShardedJedis.java][BinaryShardedJedis]] implements [[jedis:JedisCommands.java][JedisCommands]]
+
+

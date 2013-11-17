@@ -120,9 +120,11 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>redis.clients.main.Repl</mainClass>
+          <mainClass>redis.clients.misc.Repl</mainClass>
 <!--
           <arguments>
+            <argument>-Xdebug</argument>
+            <argument>-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=9999</argument>
             <argument>-properties</argument>
             <argument>config/config.properties</argument>
           </arguments>
