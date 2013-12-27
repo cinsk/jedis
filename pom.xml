@@ -121,17 +121,28 @@
         </executions>
         <configuration>
           <mainClass>redis.clients.misc.Repl</mainClass>
-<!--
           <arguments>
             <argument>-Xdebug</argument>
             <argument>-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=9999</argument>
             <argument>-properties</argument>
             <argument>config/config.properties</argument>
           </arguments>
--->
         </configuration>
       </plugin>
 
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>com.samsung.paas.SedisApp</mainClass>
+            </manifest>
+          </archive>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
+      </plugin>
                 </plugins>
         </build>
 </project>

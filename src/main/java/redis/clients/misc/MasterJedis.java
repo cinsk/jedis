@@ -41,6 +41,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -58,6 +59,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -75,6 +77,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -92,6 +95,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -109,6 +113,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -126,6 +131,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -143,6 +149,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -160,6 +167,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -177,6 +185,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -193,6 +202,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -209,6 +219,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -227,6 +238,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -244,6 +256,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -262,6 +275,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -279,6 +293,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -296,6 +311,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -313,6 +329,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -330,6 +347,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -347,6 +365,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -364,6 +383,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -381,6 +401,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -398,6 +419,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -416,6 +438,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -433,6 +456,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -450,6 +474,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -468,6 +493,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -485,6 +511,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -502,6 +529,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -519,6 +547,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -536,6 +565,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -553,6 +583,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -570,6 +601,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -587,6 +619,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -604,6 +637,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -621,6 +655,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -639,6 +674,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -656,6 +692,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -673,6 +710,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -690,6 +728,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -707,6 +746,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -724,6 +764,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -741,6 +782,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -758,6 +800,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -775,6 +818,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -792,6 +836,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -809,6 +854,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -826,6 +872,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -843,6 +890,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -860,6 +908,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -878,6 +927,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -895,6 +945,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -913,6 +964,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -930,6 +982,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -948,6 +1001,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -966,6 +1020,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -983,6 +1038,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1002,6 +1058,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1020,6 +1077,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1039,6 +1097,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1056,6 +1115,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1074,6 +1134,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1092,6 +1153,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1111,6 +1173,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1129,6 +1192,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1147,6 +1211,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1166,6 +1231,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1186,6 +1252,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1204,6 +1271,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1222,6 +1290,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1241,6 +1310,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1261,6 +1331,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1281,6 +1352,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1303,6 +1375,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1323,6 +1396,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1342,6 +1416,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1359,6 +1434,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1379,6 +1455,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1397,6 +1474,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1419,6 +1497,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1437,6 +1516,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1459,6 +1539,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1479,6 +1560,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1501,6 +1583,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1520,6 +1603,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1539,6 +1623,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1557,6 +1642,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1574,6 +1660,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1590,6 +1677,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1607,6 +1695,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1624,6 +1713,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
@@ -1641,6 +1731,7 @@ public class MasterJedis implements JedisCommands {
         catch (JedisException e) {
             if (j != null)
                 masterPool.returnBrokenResource(j);
+            throw e;
         }
         return result;
     }
